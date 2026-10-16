@@ -1,0 +1,12 @@
+[package]
+name = "elytra-providers"
+version = "0.1.0"
+edition = "2024"
+description = "Elytra sağlayıcı kataloğu — bulut LLM sağlayıcıları ve modelleri (yerel/Ollama YOK)"
+authors = ["Berkay Gülmez"]
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
